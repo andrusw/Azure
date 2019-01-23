@@ -1,0 +1,11 @@
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\bin\Debug\netcoreapp1.1\dukenukemquotes.deps.json
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\bin\Debug\netcoreapp1.1\dukenukemquotes.runtimeconfig.json
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\bin\Debug\netcoreapp1.1\dukenukemquotes.runtimeconfig.dev.json
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\bin\Debug\netcoreapp1.1\dukenukemquotes.dll
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\obj\Debug\netcoreapp1.1\dukenukemquotes.csprojAssemblyReference.cache
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\obj\Debug\netcoreapp1.1\dukenukemquotes.csproj.CoreCompileInputs.cache
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\obj\Debug\netcoreapp1.1\dukenukemquotes.AssemblyInfoInputs.cache
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\obj\Debug\netcoreapp1.1\dukenukemquotes.AssemblyInfo.cs
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\bin\Debug\netcoreapp1.1\dukenukemquotes.pdb
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\obj\Debug\netcoreapp1.1\dukenukemquotes.dll
+C:\Users\WilliamAndrus\source\repos\dukenukemquotes\dukenukemquotes\obj\Debug\netcoreapp1.1\dukenukemquotes.pdb

@@ -1,0 +1,11 @@
+#what image to use/pull
+FROM microsoft/dotnet:1.1-runtime AS base
+#set working directory to save items in linux environment
+WORKDIR /app
+# copy results to working directory
+COPY /bin/Debug/netcoreapp1.1/publish/ .
+# copy other needed file to working directory
+COPY quotes.json .
+# what commands/arguements to send in
+# in this case, using dotnet to send in a dll
+ENTRYPOINT ["dotnet", "dukenukemquotes.dll"]
