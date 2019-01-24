@@ -1,0 +1,13 @@
+en-gb	best ski resorts	614
+en-gb	broken leg	74
+en-ca	south park episodes	24
+en-us	cosmos	1213
+en-fr	microsoft	241
+en-us	wireless headphones	502
+en-us	dominos pizza	60
+en-us	yelp	1270
+en-us	how to run	610
+en-mx	what is sql	422
+en-us	mexican food redmond	283
+en-gr	microsoft	305
+en-ch	facebook	10
