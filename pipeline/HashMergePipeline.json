@@ -1,0 +1,59 @@
+{
+	"name": "HashMergePipeline",
+	"properties": {
+		"description": "Use hash code value to determine rows to update.",
+		"activities": [
+			{
+				"name": "Copy Data",
+				"type": "Copy",
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"typeProperties": {
+					"source": {
+						"type": "AzureDataLakeStoreSource",
+						"recursive": false
+					},
+					"sink": {
+						"type": "SqlSink",
+						"writeBatchSize": 10000,
+						"sqlWriterStoredProcedureName": "[adl].[uspMergeSearchLog]",
+						"sqlWriterTableType": "adl.SearchLogType"
+					},
+					"enableStaging": false,
+					"enableSkipIncompatibleRow": true,
+					"translator": {
+						"type": "TabularTranslator",
+						"columnMappings": {
+							"UserId": "UserId",
+							"Start": "Start",
+							"Region": "Region",
+							"Query": "Query",
+							"Duration": "Duration",
+							"Urls": "Urls",
+							"ClickedUrls": "ClickedUrls",
+							"HashValue": "HashValue"
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "SourceDataset_cdg",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "DestinationDataset_cdg",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

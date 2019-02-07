@@ -1,0 +1,48 @@
+{
+	"name": "DestinationDataset_cdg",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "UserId",
+				"type": "Int32"
+			},
+			{
+				"name": "Start",
+				"type": "DateTime"
+			},
+			{
+				"name": "Region",
+				"type": "String"
+			},
+			{
+				"name": "Query",
+				"type": "String"
+			},
+			{
+				"name": "Duration",
+				"type": "Int32"
+			},
+			{
+				"name": "Urls",
+				"type": "String"
+			},
+			{
+				"name": "ClickedUrls",
+				"type": "String"
+			},
+			{
+				"name": "HashValue",
+				"type": "Int32"
+			}
+		],
+		"typeProperties": {
+			"tableName": "SearchLog"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
